@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E270877-48E1-4DCA-9488-0D44DDEE7A87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SmartHome.My.MyApplication</StartupObject>
+    <RootNamespace>SmartHome</RootNamespace>
+    <AssemblyName>SmartHome_project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SmartHome_project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SmartHome_project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adduser.Designer.vb">
+      <DependentUpon>Adduser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adduser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminhomepage.Designer.vb">
+      <DependentUpon>Adminhomepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adminhomepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINLOGIN.Designer.VB">
+      <DependentUpon>ADMINLOGIN.VB</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINLOGIN.VB">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forgotpassword.Designer.vb">
+      <DependentUpon>Forgotpassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forgotpassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hall.Designer.vb">
+      <DependentUpon>Hall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitchen.Designer.vb">
+      <DependentUpon>Kitchen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kitchen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.VB">
+      <DependentUpon>LOGIN.VB</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.VB">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify.Designer.vb">
+      <DependentUpon>Modify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Room1.Designer.vb">
+      <DependentUpon>Room1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Room1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room2.Designer.vb">
+      <DependentUpon>Room2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Room2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserHall.Designer.vb">
+      <DependentUpon>UserHall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserHall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Userhomepage.Designer.vb">
+      <DependentUpon>Userhomepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Userhomepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserKitchen.Designer.vb">
+      <DependentUpon>UserKitchen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserKitchen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USERLOGIN.Designer.vb">
+      <DependentUpon>USERLOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USERLOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Userreport.Designer.vb">
+      <DependentUpon>Userreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Userreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRoom1.Designer.vb">
+      <DependentUpon>UserRoom1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserRoom1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRoom2.Designer.vb">
+      <DependentUpon>UserRoom2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserRoom2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Adduser.resx">
+      <DependentUpon>Adduser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminhomepage.resx">
+      <DependentUpon>Adminhomepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINLOGIN.resx">
+      <DependentUpon>ADMINLOGIN.VB</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forgotpassword.resx">
+      <DependentUpon>Forgotpassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hall.resx">
+      <DependentUpon>Hall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitchen.resx">
+      <DependentUpon>Kitchen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.VB</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify.resx">
+      <DependentUpon>Modify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room1.resx">
+      <DependentUpon>Room1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room2.resx">
+      <DependentUpon>Room2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHall.resx">
+      <DependentUpon>UserHall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Userhomepage.resx">
+      <DependentUpon>Userhomepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserKitchen.resx">
+      <DependentUpon>UserKitchen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USERLOGIN.resx">
+      <DependentUpon>USERLOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Userreport.resx">
+      <DependentUpon>Userreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRoom1.resx">
+      <DependentUpon>UserRoom1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRoom2.resx">
+      <DependentUpon>UserRoom2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\bin\Debug\SmartHome.exe
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\bin\Debug\SmartHome.pdb
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\bin\Debug\SmartHome.xml
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\obj\x86\Debug\SmartHome.LoginForm1.resources
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\obj\x86\Debug\SmartHome.Resources.resources
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\obj\x86\Debug\SmartHome.vbproj.GenerateResource.Cache
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\obj\x86\Debug\SmartHome.exe
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\obj\x86\Debug\SmartHome.xml
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\obj\x86\Debug\SmartHome.pdb
+C:\Users\win10\AppData\Local\Temporary Projects\SmartHome\obj\x86\Debug\SmartHome.welcome.resources
